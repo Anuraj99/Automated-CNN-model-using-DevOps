@@ -1,6 +1,6 @@
-data_file = open('/home/tsaxena/workspace/mlopsproject1/data.txt','r')
-input_file = open('/home/tsaxena/workspace/mlopsproject1/input.txt','r')
-accuracy_file = open('/home/tsaxena/workspace/mlopsproject1/accuracy_check.txt','r')
+data_file = open('/home/mlops/task3/data.txt','r')
+input_file = open('/home/mlops/task3/input.txt','r')
+accuracy_file = open('/home/mlops/task3/accuracy_check.txt','r')
 
 data = data_file.read()
 data = data.split('\n')
@@ -95,8 +95,8 @@ data_file.close()
 input_file.close()
 
 #opening both the files in write mode
-data_file = open('/home/tsaxena/workspace/mlopsproject1/data.txt','w')
-input_file = open('/home/tsaxena/workspace/mlopsproject1/input.txt','w')
+data_file = open('/home/mlops/task3/data.txt','w')
+input_file = open('/home/mlops/task3/input.txt','w')
 
 data_file_data = str(old_accuracy) + '\n' + str(layer) + '\n' + str(line) + '\n' + str(entered_data) + '\n' + str(old_data) + '\n' + str(index_fc)
 
